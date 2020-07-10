@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+
+{% block title %}用户更新{% endblock %}
+{% block breadcrumb %}
+  <h1>
+     用户权限管理系统
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">用户更新</li>
+  </ol>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+<!-- Left col -->
+<div class="col-md-10">
+<div class="box box-info">
+
+<div class="box-header with-border">
+  <h3 class="box-title">用户更新</h3>
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+    </button>
+    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+  </div>
+</div>
+    <table class="table table-striped table-hover table-bordered">
+    <tr>
+    <th align="center">条目</th>
+    <th align="center">执行时间</th>
+    <th align="center">执行命令</th>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>1</td>
+    <td align='left'>0 0 * * 1 </td>
+    
+<td align=left>/bin/bash /home/server_config/Inter_img.sh >/dev/null 2>&1 </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>2</td>
+    <td align='left'>0 */1 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/calc_city.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>3</td>
+    <td align='left'>*/10 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/calc_record.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>4</td>
+    <td align='left'>0 8 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/calc_match.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>5</td>
+    <td align='left'>30 2 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/sync_application.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>6</td>
+    <td align='left'>59 */1 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/calc_game.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>7</td>
+    <td align='left'>10 */1 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/calc_appCount.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>8</td>
+    <td align='left'>*/30 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara-migrate; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara-migrate/src/statistics/sys_console/stats_cloud.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>9</td>
+    <td align='left'>*/1 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara_moments; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara_moments/src/sys_console/sync.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>10</td>
+    <td align='left'>*/1 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/training-plan; /data/x/tools/rigger-ng/rg php -f /data/x/projects/training-plan/src/sys_console/message_notify.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>11</td>
+    <td align='left'>59 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/hero; /data/x/tools/rigger-ng/rg php -f /data/x/projects/hero/src/sys_console/InitCheckAccount.php -e online -s console) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>12</td>
+    <td align='left'>00 02 31 7 * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record/src/sys_console/cmds; ./cmds -c 10 >> /home/wangyasong/fix.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>13</td>
+    <td align='left'>15 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/vendor/pull/corospull.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>14</td>
+    <td align='left'>25 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/vendor/pull/huamipull.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>15</td>
+    <td align='left'>35 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/vendor/pull/ezonpull.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>16</td>
+    <td align='left'>45 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/vendor/pull/ezonrunpull.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>17</td>
+    <td align='left'>55 23 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/vendor/push/garminpush.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>18</td>
+    <td align='left'>00 02 * * * </td>
+    
+<td align=left>(cd /data/x/projects/runner_record; /data/x/tools/rigger-ng/rg php -f /data/x/projects/runner_record/src/sys_console/empiric_update.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>19</td>
+    <td align='left'>*/30 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara_match; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara_match/src/sys_console/albums/transport.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>20</td>
+    <td align='left'>20 */1 * * * </td>
+    
+<td align=left>(cd /data/x/projects/mara_match; /data/x/tools/rigger-ng/rg php -f /data/x/projects/mara_match/src/sys_console/expiredmatch_cancel.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+
+    <tr>
+    <td align='left'>21</td>
+    <td align='left'>*/1 * * * * </td>
+    
+<td align=left>(cd /data/x/projects/biz-gateway; /data/x/tools/rigger-ng/rg php -f /data/x/projects/biz-gateway/src/sys_console/push2tags.php -e online -s console >> /tmp/cron.log 2>&1) </td>
+    </tr>
+    
+</table>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </div>
+<!-- /.body -->
+
+</div>
+<!-- /.box -->
+</div>
+<!-- /.col -->
+</div>
+<!-- /.row -->
+{% endblock %}

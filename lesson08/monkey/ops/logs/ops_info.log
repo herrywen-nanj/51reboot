@@ -1,0 +1,2 @@
+[2019-07-14 10:44:24,481][Thread-5:140148786853632][task_id:collect][views.py:25][INFO][args: ()]
+[2019-07-14 10:44:24,481][Thread-5:140148786853632][task_id:collect][views.py:26][INFO][kwargs : {'pk': '28'}]

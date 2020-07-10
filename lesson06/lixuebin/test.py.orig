@@ -1,0 +1,152 @@
+import sys
+import json
+import os
+import csv
+from datetime import datetime
+from prettytable import PrettyTable
+import logging
+import pymysql
+import configparser
+
+
+# class Con(object):
+#     def __init__(self, filename = 'mysql.ini'):
+#         self.filename = filename
+#
+#     def MyConn(self, filename='mysql.ini'):
+#         try:
+#             config = configparser.ConfigParser()
+#             config.read(filename)
+#             connect = pymysql.connect(
+#                 host = config.get('mysqld', 'host'),
+#                 username = config.get('mysqld', 'username'),
+#                 password = config.get('mysqld', 'password'),
+#                 port = config.getint('mysqld', 'port'),
+#                 database = config.get('mysqld', 'database')
+#             )
+#             return connect
+#         except Exception as e:
+#             return False
+
+class DB(object):
+
+    # def __init__(self, host, username, password, port):
+    #     self.host: str = host
+    #     self.username: str = username
+    #     self.password: str = password
+    #     self.port: int = port
+    def __init__(self, host='127.0.0.1', user='lixuebin', password='lixuebin@123456', port=3306, database='ops'):
+        self.host: str = host
+        self.user: str= user
+        self.password: str = password
+        self.port: int = port
+        self.database: str = database
+
+    def MyConn(self):
+        try:
+            # config = configparser.ConfigParser()
+            # config.read(filename)
+            connect = pymysql.connect(
+                # host = config.get('mysqld', 'host'),
+                # username = config.get('mysqld', 'username'),
+                # password = config.get('mysqld', 'password'),
+                # port = config.getint('mysqld', 'port'),
+                # database = config.get('mysqld', 'database')
+                host = self.host,
+                username = self.user,
+                password = self.password,
+                port = self.port,
+                database = self.database
+            )
+            return connect
+        except Exception as e:
+            print(e)
+            return False
+
+
+
+
+
+#     def select(self, sql):
+#         conn = self.MyConn()
+#         if not conn:
+#             return 'conn is failed.', False
+#         cur = conn.cursor()
+#         try:
+#             if cur.execute(sql):
+#                 data = cur.fetchall()
+#                 datalist = []
+#                 for i in data:
+#                     datalist.append(list(i))
+#                 return datalist, True
+#             else:
+#                 return '\033[5;31m User list is None! Please add user info!\033[0m', False
+#         except Exception as e:
+#             return e, False
+#         finally:
+#             cur.close()
+#             conn.close()
+#
+#     def insert(self, sql):
+#         conn = self.MyConn()
+#         if not conn:
+#             return 'conn is failed.', False
+#         cur = conn.cursor()
+#         try:
+#             cur.execute(sql)
+#             conn.commit()
+#             return "\n\033[1;32m Add user success.\033[0m", True
+#         except Exception as e:
+#             conn.rollback()
+#             return e, False
+#         finally:
+#             cur.close()
+#             conn.close()
+#
+#     def update(self, sql):
+#         conn = self.MyConn()
+#         if not conn:
+#             return 'conn is failed.', False
+#         cur = conn.cursor()
+#         try:
+#             cur.execute(sql)
+#             if cur.rowcount == 0:
+#                 return 'User is not exists,update failed!', False
+#
+#             conn.commit()
+#             return 'update success', True
+#         except Exception as e:
+#             conn.rollback()
+#             return e, False
+#         finally:
+#             cur.close()
+#             conn.close()
+#
+#     def delete(self, sql):
+#         conn = self.MyConn()
+#         if not conn:
+#             return 'conn is failed.', False
+#         cur = conn.cursor()
+#         try:
+#             cur.execute(sql)
+#             if cur.rowcount != 1:
+#                 return '"\033[5;31m This UserName is not exist! Please reinput !\033[0m"', False
+#             else:
+#                 conn.commit()
+#                 return 'delete success!', True
+#
+#         except Exception as e:
+#             conn.rollback()
+#             return e, False
+#         finally:
+#             cur.close()
+#             conn.close()
+#
+#
+#
+# sql = '''insert into users (username,age,tel,email) values ('liubei',72,'1231413','sdasdadas');'''
+# print(sql)
+con = DB()
+print(con)
+msg = con.MyConn()
+print(msg)

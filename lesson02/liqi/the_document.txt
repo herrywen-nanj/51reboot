@@ -1,0 +1,157 @@
+>>> dir(str)  
+.count:计算字符个数
+# 第一个参数是需要数的字符或者字符串，第二第三个参数是起始位置（包含）和结束位置（不包含）
+S.count(sub[, start[, end]]) -> int
+# s5_1 = "Hello Python"
+# 例：print(s5_1.count('l', 2, 4))
+
+.startswith:判断起始位置字符
+# 起始位置字符，返回True、False
+S.startswith(prefix[, start[, end]]) -> bool
+# 例：print("abcd222".startswith('a', 0, 3))
+
+.endswith：判断末尾位置字符
+# 末尾位置字符，返回True、False
+S.endswith(suffix[, start[, end]]) -> bool
+# 例子：s6_1 = "Hello Python!!!”
+# print(s6_1.endswith("!!”,12,14))
+
+.find
+# 返回第一个找到的字符位置,找不到返回-1
+S.find(sub[, start[, end]]) -> int
+# 例:s8_1 = "Hello World!!”
+# print(s8_1.find('l’,0,3))
+
+.format
+# 格式化输出
+S.format(*args, **kwargs) -> str
+# 例：print('{} {} {} {}'.format(list_for[0],list_for[1],list_for[2],list_for[3]))
+
+.index
+# 该方法与find类似，但是如果没找到会报个错,找到会返回索引值
+S.index(sub[, start[, end]]) -> int
+# 例：s9_1 = "Hello Python!!!"
+# print(s9_1.index('l'))
+
+.isdigit
+# 判断是否全部为数字
+S.isdigit() -> bool
+# 例：print(S.isdigit())
+
+.islower
+# 如果全部是小写字符返回True(测试下来，基本上只要不是大写字母都可以）
+S.islower() -> bool
+# 例：print(S.islower())
+
+.isupper
+# 是否全部为大写（不考虑符号）如果出现小写，那就返回false
+S.isupper() -> bool
+#例：print(S.isupper())
+
+.join
+# 在一个可迭代的容器内用给予的字符串分割
+S.join(iterable) -> str
+# 例：li = ["abcd", "AAA", "@@@", "bcda"]
+# print("我是分割线".join(li))
+
+.ljust
+# 左对齐
+S.ljust(width[, fillchar]) -> str
+# 例：print("aaa".ljust(10, '*’))
+
+.lower
+# 将字符串改为小写
+S.lower() -> str
+# 例：print("ABCD".lower())
+
+.lstrip
+# 删除左边的空格或者字符
+S.lstrip([chars]) -> str
+# 例：print("ABCDssss".lstrip("ABCD"))
+
+.replace
+# 方法把字符串中的 old（旧字符串） 替换成 new(新字符串)，如果指定第三个参数max，则替换不超过 max 次。
+S.replace(old, new[, count]) -> str
+# 例：str = "this is string example....wow!!! this is really string”;
+ # print str.replace("is", "was”);
+ # print str.replace("is", "was", 3);
+
+.rjust
+# 将字符串靠右, 并在左边填充空格。
+S.rjust(width[, fillchar]) -> str
+# 例：print("aaaa".rjust(10, '*’))
+
+.split
+# 通过指定分隔符对字符串进行切片，如果参数num 有指定值，则仅分隔num次(1次是2个)，返回列表格式
+S.split(sep=None, maxsplit=-1) -> list of strings
+# 例：l2 = "a,b,c,d,e,123".split(',', 4)
+print(type(l2), l2)
+
+.strip
+# 去除首尾字符，默认为空格
+S.strip([chars]) -> str
+# 例：print(" aaa ".strip())
+
+.upper
+# 全部转换大写
+S.upper() -> str
+# 例：print("aabBccdD".upper())
+>>> dir(list)    
+
+.append
+# 从list的尾部添加一个元素
+L.append(object) -> None -- append object to end
+# 例：li.append("aabb")
+# print(li)
+
+.count
+# 返回指定字符或者字符串在list内的个数
+L.count(value) -> integer -- return number of occurrences of value
+# 例：li = [[1, 2], 'aa', [3, 4]]
+# print(li.count('aa’))
+
+.extend
+# 把一个iterable内所有元素加入到list，append是把一个iterable作为一个元素添加到list
+L.extend(iterable) -> None
+# 例：li = [[1, 2], 'aa', [3, 4], 'aa']
+# li.extend([1, 2, 3, 4])
+# print(li)
+# [[1, 2], 'aa', [3, 4], 'aa', 1, 2, 3, 4]
+
+.index
+# 返回第一个指定元素的下标（第一个出现的）
+L.index(value, [start, [stop]]) -> integer
+# 例：li = [[1, 2], 'aa', [3, 4], 'aa', 1, 2, 3, 4]
+# print(li.index('aa', 2, 6))
+
+.insert
+# 在指定位置前插入数据
+L.insert(index, object)
+# 例：li =  [1, 2, 3, 4]
+# li.insert(2, 999)
+# print(li)
+# [1, 2, 999, 3, 4]
+
+.pop
+# 删除最后一个元素，并且返回所删除的元素,参数可以指定位置，如果不设置默认为最后一个元素
+L.pop([index]) -> item
+# 例：print(li.pop())
+
+.remove
+# 删除第一次出现的指定元素，如果找不到，就报错
+L.remove(value) -> None
+# 例：li = [1, 2, 999, 3]
+# li.remove(999)
+
+.reverse
+# 反转list的元素
+# 例：li.reverse()
+
+.sort
+#列表内容排序
+# 例：li.sort(reverse=True)
+# 假设一个数据，为姓名，性别，年龄的tuple，我需要按照年龄来排序
+# 通过key这个参数设置一个lamda表达式，获取list每一个元素，然后取出index=2的元素，进行排序
+# li = [('jack', 'male', 18), ('tom', 'male', 20), ('alice', 'female', 12)]
+# li.sort(key=lambda x: x[2])
+# print(li)

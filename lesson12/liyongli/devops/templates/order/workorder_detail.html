@@ -1,0 +1,136 @@
+{% extends "base/base.html" %}
+{% block title %}工单详情{% endblock %}
+
+{% load ordertag %}
+
+{% block css %}
+    <style>
+        .nothh { display: inline; }
+    </style>
+{% endblock %}
+
+{% block breadcrunb %}
+  <h1>
+   通用工单系统
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">工单详情</li>
+  </ol>
+{% endblock %}
+
+{% block content %}
+
+<!-- Main row -->
+<div class="row">
+<!-- Left col -->
+<div class="col-md-12">
+<!-- TABLE: LATEST ORDERS -->
+<div class="box box-info">
+
+<div class="box-header with-border">
+  <h3 class="box-title">工单详情</h3>
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+    </button>
+    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+  </div>
+</div>
+<!-- /.box-header -->
+
+<div class="box-body">
+{#    <form method="post" action="" class="form-horizontal">#}
+    <div class="form-horizontal">
+        {% if msg %}
+            <div class="alert alert-success alert-dismissable">
+                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                {{ msg | safe }}
+            </div>
+        {% elif errmsg %}
+            <div class="alert alert-danger alert-dismissable">
+                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                {{ errmsg | safe }}
+            </div>
+        {% endif %}
+
+        {{ contents|get_info:workorder.id|cut_info|safe }}
+
+        {% if workorder.orderfiles %}附近下载：<a href="http://{{ request.get_host }}/media/{{ workorder.orderfiles }}">{{ workorder.orderfiles |orderfile_name}} </a>{% endif %}
+        <div class="hr-line-dashed"></div>
+    
+        {% if workorder.status == 1 %}
+        <div class="form-group">
+            <div class="col-sm-12">
+                <textarea  id="result_note" name="result_desc" class="form-control" rows="5" placeholder="处理结果"></textarea>
+            </div>
+        </div>
+        <div class="hr-line-dashed"></div>
+        {% endif %}
+
+        <div class="form-group">
+            <div class="col-sm-4">
+                {% if workorder.status == 0 %}
+                    <button id="submit_button_accept" class="btn btn-primary" type="submit">接受</button>
+                {% elif workorder.status == 1 %}
+                    <button id="submit_button_replay" class="btn btn-info" type="submit">回复</button>
+                    <button id="submit_button_finish" class="btn btn-primary" type="submit">完成</button>
+                {% endif %}
+                <button class="btn btn-white" type="reset">取消</button>
+            </div>
+        </div>
+    </div>
+{#    </form>#}
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+{% endblock %}
+
+
+{% block js %}
+    <script>
+
+    window.note = '';
+
+    $('#submit_button_accept').click(function setname(){
+       window.name = 'accept'
+        chang_status();
+    });
+
+    $('#submit_button_replay').click(function setname(){
+       window.name = 'replay';
+       window.note = $("#result_note").val();
+       chang_status();
+    });
+
+    $('#submit_button_finish').click(function setname(){
+       window.name = 'finish';
+        chang_status();
+    });
+
+     function chang_status() {
+         var work_order_id = $(this).attr('data-id');
+         $.ajax({
+            type: "POST",
+            url: "",     {#% url 'work_order:list' %#}
+            data:{"action": window.name,
+                "text": window.note
+            },
+
+            success: function(data){
+                console.log(data);
+                if (data['code'] == 0){
+                    location.reload();
+               }else{
+                    swal("Error", data['errmsg'], "error")
+               }
+         }
+        });
+     }
+
+</script>
+{% endblock %}

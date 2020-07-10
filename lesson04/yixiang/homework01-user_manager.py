@@ -1,0 +1,308 @@
+# 需求：
+#     简单的用户管理系统
+
+import sys
+import json
+import csv
+import logs
+from json import JSONDecodeError
+
+about_sys = '''
+    在lesson2的基础上添加：
+    1. 数据存储字典
+    2. 添加持久化保存功能
+    3. 持久化保存到文件
+    4. 保存到文件时，捕获异常
+    在lesson3的基础上添加：
+    1. 用户操作日志
+    2. 导出用户信息csv格式
+
+    系统角色：普通用户 管理员 
+    系统配置, 缺省:
+            用户自注册：开
+          主页设置入口：开 
+          用户升级渠道：开 
+            内置管理员：开
+
+    系统第三期，工期仍然紧张，可配项有限，客官见谅...
+'''
+
+# 系统名称
+sysName = "用户管理"
+h = "\n*=*=*=*=*=*=**=* {} *=**=*=*=*=*=*=*".format(sysName)
+# 系统模块
+model = {}
+model_home = {}
+# 模块应全部从model中获取，根据模块层级动态对应。应工时紧张，该处写死。
+model_level01 = {1: "删除用户", 2: "修改用户", 3: "查询所有用户", 4: "搜索用户", 5: "导出用户信息csv格式"}
+
+sysConf = {"register": 1, "home_setup": 1, "upgrade_user": 1, "ini_admin": 1}
+# 普通用户
+users = {}
+# 管理员
+admins = {}
+# 隐藏密码
+password = "666666"
+
+
+# 初始化系统
+def ini():
+    # 初始化系统模块
+    model[0] = '登录'
+    model[1] = '注册'
+    model[2] = '持久化数据'
+    model[98] = '关于'
+    model[99] = '设置'
+    model[100] = '退出系统'
+    # 初始化 home
+    for i in model.keys():
+        flag = True
+        if sysConf["register"] == 0 and model[i] == "注册":
+            flag = False
+        if sysConf["home_setup"] == 0 and model[i] == "设置":
+            flag = False
+        if flag:
+            model_home[i] = model[i]
+
+    # 初始化管理用户 -- lesson2版本，代码中直接初始化
+    # if sysConf["ini_admin"] == 1:
+    #    users["123"] = "123"
+    #    users["admin"] = "admin"
+    #    admins["admin"] = "admin"
+
+    # 初始化管理用户 -- lesson3版本，文件中初始化用户信息
+    data = load_file()
+    if type(data).__name__ == 'dict':
+        for i in data.keys():
+            if i == 'admin':
+                admins[i] = data[i]
+            users[i] = data[i]
+    if not users:
+        if sysConf["ini_admin"] == 1:
+            users["123"] = "123"
+            users["234"] = "234"
+            users["admin"] = "admin"
+            admins["admin"] = "admin"
+
+
+# 加载文件中的内容
+def load_file():
+    fd = None
+    try:
+        logs.info('自动加载缓存文件')
+        fd = open("homework01_user_manager.txt", 'r')
+        data = fd.read()
+        logs.info('成功加载数据：' + data)
+        return json.loads(data)
+    except FileNotFoundError:
+        logs.error("存档文件不存在...开始进行默认初始化操作")
+        return {}
+    except JSONDecodeError:
+        logs.error("存档文件格式错误...开始进行默认初始化操作")
+        return {}
+    except Exception as e:
+        logs.error(str(e))
+    finally:
+        if fd is not None:
+            fd.close()
+
+
+# 导出csv格式用户信息
+def export_csv(user):
+    if user in admins.keys():
+        logs.info('正在导出csv文件...')
+        title = ['用户名', '密码']
+        with open('users.csv', 'w', newline='') as users_csv:
+            writer = csv.writer(users_csv)
+            writer.writerow(title)
+            for i in users:
+                u = [i, users[i]]
+                writer.writerow(u)
+        logs.info('csv文件导出成功！请移步查看...')
+    else:
+        logs.error("非管理员不能导出用户信息")
+
+
+# 持久化数据到文件
+def save_file():
+    fd = None
+    try:
+        fd = open("homework01_user_manager.txt", 'w')
+        # 覆盖之前的存档，需要该步骤
+        fd.write(json.dumps(users))
+        logs.info("成功保存持久化数据：" + json.dumps(users))
+    except Exception as e:
+        logs.error(str(e))
+    finally:
+        if fd is not None:
+            fd.close()
+
+
+# 欢迎页
+def home01(model):
+    print(h)
+    model_key = sorted(model.keys())
+
+    # 键入 模块 key 限定 int 类型
+    for i in model_key:
+        out = ("{}. {}".format(i, model[i])).rjust(8)
+        print(out.center(len(h) - 3))
+
+    print("exit".rjust(len(h)))
+    print(" == ".center(len(h) + 2, "*"))
+    return input("请输入===>：")
+
+
+def login():
+    input_info = input("请输入用户名/密码：")
+    info = input_info.split("/")
+    if len(info) != 2:
+        logs.error("您的输入格式错误，请按照：用户名/密码")
+        return
+    if info[0] not in users or info[1] != users[info[0]]:
+        logs.error("您输入的用户名或密码错误!")
+        return
+
+    if info[0] in admins:
+        model_level01[1] = "删除用户"
+        model_level01[3] = "查询所有用户"
+        model_level01[5] = "导出用户信息csv格式"
+    else:
+        if 3 in model_level01.keys():
+            model_level01.pop(1)
+            model_level01.pop(3)
+            model_level01.pop(5)
+
+    logs.info(info[0] + "登录成功")
+    while True:
+        in2 = home01(model_level01)
+        op = print_model(in2, model_level01, info[0])
+        if op == "exit":
+            return
+
+
+def register():
+    input_info = input("请输入您注册的用户名/密码：")
+    info = input_info.split("/")
+    if len(info) != 2:
+        logs.error("您的输入格式错误，请按照：用户名/密码")
+        retry = input("重试(y), 回到主页面(other)")
+        if retry == "y":
+            return register()
+        return
+    if info[0] in users.keys():
+        logs.error("您注册的用户已经存在！")
+        return
+    users[info[0]] = info[1]
+    logs.info(info[0] + "注册成功！")
+
+
+def delete_user(user):
+    if user in admins.keys():
+        print(" 查看所有用户 ".center(len(h), "*"))
+        for i in users.keys():
+            out = "userName: {}".format(i).ljust(10)
+            print(out.center(len(h)))
+    input_info = input("请输入您需要删除的用户：")
+    if input_info not in users.keys():
+        logs.error("该用户不存在！")
+        return
+    users.pop(input_info)
+    logs.info("删除成功！")
+
+
+def update_user(user):
+    if user in admins.keys():
+        print(" 查看所有用户 ".center(len(h), "*"))
+        for i in users.keys():
+            out = "userName: {}".format(i).ljust(10)
+            print(out.center(len(h)))
+        input_info = input("请输入您需要修改的用户名：")
+        if input_info not in users.keys():
+            logs.error("该用户不存在！")
+            return
+    else:
+        input_info = user
+
+    users[input_info] = input("请输入新的密码：")
+    logs.info("修改成功！")
+
+
+def list_user(user):
+    if user in admins.keys():
+        print(" 查看所有用户 ".center(len(h), "*"))
+        for i in users.keys():
+            out = "userName: {}".format(i).ljust(10)
+            print(out.center(len(h)))
+    else:
+        logs.error("非管理员不能查看所有用户信息")
+
+
+def search_user(user):
+    input_info = input("请输入您需要搜索的用户名：")
+    if input_info not in users.keys():
+        logs.error("您输入的用户不存在！")
+        return
+
+    print(" 搜索用户 ".center(len(h), "*"))
+    if user in admins.keys():
+        out = "userName: {}, password: {}".format(input_info, users[input_info]).ljust(10)
+    else:
+        out = "userName: {}".format(input_info).ljust(10)
+    print(out.center(len(h)))
+
+
+# 通用进入相关页面
+def print_model(inp, model, user):
+    inp.strip()
+    result = inp.isdigit()
+    if result:
+        pass
+    else:
+        if inp == "exit" and 100 in model:
+            sys.exit(0)
+        elif inp == "exit":
+            return "exit"
+        logs.error("只能输入数字，请重新输入：")
+        return
+
+    inp = int(inp)
+    if inp in model.keys():
+        if model[inp] == "登录":
+            login()
+        elif model[inp] == "注册":
+            register()
+        elif model[inp] == "关于":
+            print(about_sys)
+        elif model[inp] == "持久化数据":
+            save_file()
+        elif model[inp] == "导出用户信息csv格式":
+            export_csv(user)
+        elif model[inp] == "设置":
+            print("功能缺失！")
+        elif model[inp] == "退出系统":
+            sys.exit(0)
+        elif model[inp] == "删除用户":
+            delete_user(user)
+        elif model[inp] == "修改用户":
+            update_user(user)
+        elif model[inp] == "查询所有用户":
+            list_user(user)
+        elif model[inp] == "搜索用户":
+            search_user(user)
+    else:
+        print("您的输入模块不存在，请重新输入：")
+    input("输入任意字符回主页：")
+
+
+# 程序主入口
+if __name__ == '__main__':
+    ini()
+    while True:
+        in1 = home01(model_home)
+        print_model(in1, model_home, "")
+
+
+
+
+

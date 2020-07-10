@@ -1,0 +1,5 @@
+Sat, 22 Jun 2019 16:05:54 logs.py[line:24] INFO: 自动加载缓存文件
+Sat, 22 Jun 2019 16:05:54 logs.py[line:24] INFO: 成功加载数据：{"123": "123", "234": "234", "admin": "admin"}
+Sat, 22 Jun 2019 16:06:01 logs.py[line:24] INFO: admin登录成功
+Sat, 22 Jun 2019 16:06:06 logs.py[line:32] ERROR: 只能输入数字，请重新输入：
+Sat, 22 Jun 2019 16:06:17 logs.py[line:24] INFO: 123登录成功

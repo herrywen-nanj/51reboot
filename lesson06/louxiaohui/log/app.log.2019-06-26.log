@@ -1,0 +1,39 @@
+23/Jun/2019 11:03:02 v3_csv_log_func.py[line:128] DEBUG login succeed
+23/Jun/2019 11:03:35 v3_csv_log_func.py[line:128] DEBUG login succeed
+23/Jun/2019 11:06:56 v3_csv_log_func.py[line:128] DEBUG login succeed
+23/Jun/2019 11:10:58 v3_csv_log_func.py[line:128] DEBUG login succeed
+26/Jun/2019 21:21:11 v4_pymysql_ConfigParser.py[line:156] DEBUG login succeed
+26/Jun/2019 21:38:39 v4_pymysql_ConfigParser.py[line:133] DEBUG login succeed
+26/Jun/2019 21:48:48 v4_pymysql_ConfigParser.py[line:136] DEBUG login succeed
+26/Jun/2019 21:52:45 v4_pymysql_ConfigParser.py[line:137] DEBUG login succeed
+26/Jun/2019 21:53:33 v4_pymysql_ConfigParser.py[line:137] DEBUG login succeed
+26/Jun/2019 21:54:48 v4_pymysql_ConfigParser.py[line:138] DEBUG login succeed
+26/Jun/2019 21:56:18 v4_pymysql_ConfigParser.py[line:138] DEBUG login succeed
+26/Jun/2019 21:57:46 v4_pymysql_ConfigParser.py[line:139] DEBUG login succeed
+26/Jun/2019 22:00:38 v4_pymysql_ConfigParser.py[line:137] DEBUG login succeed
+26/Jun/2019 22:01:32 v4_pymysql_ConfigParser.py[line:138] DEBUG login succeed
+26/Jun/2019 22:03:13 v4_pymysql_ConfigParser.py[line:137] DEBUG login succeed
+26/Jun/2019 22:03:35 v4_pymysql_ConfigParser.py[line:137] DEBUG login succeed
+26/Jun/2019 22:12:10 v4_pymysql_ConfigParser.py[line:140] DEBUG login succeed
+26/Jun/2019 22:25:01 v4_pymysql_ConfigParser.py[line:141] DEBUG login succeed
+26/Jun/2019 22:25:53 v4_pymysql_ConfigParser.py[line:141] DEBUG login succeed
+26/Jun/2019 22:28:38 v4_pymysql_ConfigParser.py[line:142] DEBUG login succeed
+26/Jun/2019 22:31:21 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+26/Jun/2019 22:31:49 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+26/Jun/2019 22:32:18 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+26/Jun/2019 22:35:36 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+26/Jun/2019 23:23:59 v4_pymysql_ConfigParser.py[line:141] DEBUG login succeed
+26/Jun/2019 23:32:58 v4_pymysql_ConfigParser.py[line:142] DEBUG login succeed
+26/Jun/2019 23:36:44 v4_pymysql_ConfigParser.py[line:107] INFO Insert succ.
+26/Jun/2019 23:36:44 v4_pymysql_ConfigParser.py[line:108] DEBUG insert into users(username, age, tel, email) values('test010', 25, '18233335686', '6673@qq.com');
+26/Jun/2019 23:39:47 v4_pymysql_ConfigParser.py[line:142] DEBUG login succeed
+26/Jun/2019 23:41:28 v4_pymysql_ConfigParser.py[line:142] DEBUG login succeed
+26/Jun/2019 23:50:13 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed
+26/Jun/2019 23:51:28 v4_pymysql_ConfigParser.py[line:108] INFO Insert succ.
+26/Jun/2019 23:51:28 v4_pymysql_ConfigParser.py[line:109] DEBUG insert into users(username, age, tel, email) values('test009', 25, '18233335686', '6673@qq.com');
+26/Jun/2019 23:51:45 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed
+26/Jun/2019 23:52:22 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed
+26/Jun/2019 23:52:41 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed
+26/Jun/2019 23:59:14 v4_pymysql_ConfigParser.py[line:108] INFO Insert succ.
+26/Jun/2019 23:59:14 v4_pymysql_ConfigParser.py[line:109] DEBUG insert into users(username, age, tel, email) values('test007', 24, '18233335686', '6673@qq.com');
+26/Jun/2019 23:59:37 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed

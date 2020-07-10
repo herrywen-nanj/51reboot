@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}}</title>
+</head>
+<body style="background: cadetblue">
+<div>
+    <h3>列表方式</h3>
+    <li>{{books.0}}</li>
+    <li>{{books.1}}</li>
+    <li>{{books.2}}</li>
+    <li>{{books.3}}</li>
+</div>
+<div>
+    <h3>循环方式</h3>
+    {% for book in books %}
+    <li>{{book}}</li>
+    {% endfor %}
+</div>
+<h3>字典取值</h3>
+name = {{ user.name }} age = {{user.age}}
+<div>
+    <h3>if判断</h3>
+    {%if user%}
+    <li>name:{{user.name}}</li>
+    {%endif%}
+</div>
+<div>
+    <h3>for k,v</h3>
+    {%for k, v in user.items%}
+    <li>:{{k}} --> {{v}}</li>
+    {%endfor%}
+</div>
+
+<div>
+    <table width="400" border="1" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th border="1">ID</th>
+                <th border="1">商品</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for i in products%}
+            <tr>
+                <td border="1">{{i.pid}}</td>
+                <td border="1">{{i.name}}</td>
+                {%endfor%}
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+Fri, 28 Jun 2019 17:55:17 logs.py[line:17] ERROR Hello
+Sat, 29 Jun 2019 10:59:16 peewee.py[line:2937] DEBUG ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`roles` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['51reboot', 1, 0])
+Sat, 29 Jun 2019 10:59:16 logs.py[line:15] INFO 51reboot 登录成功
+Sat, 29 Jun 2019 10:59:59 peewee.py[line:2937] DEBUG ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`roles` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['51reboot', 1, 0])
+Sat, 29 Jun 2019 10:59:59 logs.py[line:15] INFO 51reboot 登录成功
+Sat, 29 Jun 2019 11:01:01 peewee.py[line:2937] DEBUG ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`roles` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['51reboot', 1, 0])
+Sat, 29 Jun 2019 11:01:01 logs.py[line:15] INFO 51reboot 登录成功
+Sat, 29 Jun 2019 11:01:59 peewee.py[line:2937] DEBUG ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`roles` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['51reboot', 1, 0])
+Sat, 29 Jun 2019 11:01:59 logs.py[line:15] INFO 51reboot 登录成功

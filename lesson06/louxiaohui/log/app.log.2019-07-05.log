@@ -1,0 +1,5 @@
+05/Jul/2019 00:36:28 v5_class.py[line:148] DEBUG login succeed
+05/Jul/2019 00:38:05 v5_class.py[line:148] DEBUG login succeed
+05/Jul/2019 00:38:19 v5_class.py[line:111] INFO Insert succ.
+05/Jul/2019 00:38:19 v5_class.py[line:112] DEBUG insert into users(username, age, tel, email) values('test008', 25, '18233335686', '6673@qq.com');
+05/Jul/2019 00:38:34 v5_class.py[line:148] DEBUG login succeed

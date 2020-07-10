@@ -1,0 +1,67 @@
+{% load pagination_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资产系统</title>
+    <style>
+        th {
+            height: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1 style="color: green">资产系统<h5>51reboot 训练营</h5></h1>
+    <hr>
+
+{#    <table border="1">#}
+    <table border="1" cellspacing="0" bordercolor="#000000" cellpadding="4">
+
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>id</th>
+                <th>主机名</th>
+                <th>内网ip</th>
+                <th>cpu</th>
+                <th>制造商</th>
+                <th>创建时间</th>
+                <th>更新时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% autopaginate objects 5 %}
+
+            {% for obj in objects %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ obj.id }}</td>
+                <td>{{ obj.hostname }}</td>
+                <td>{{ obj.private_ip }}</td>
+                <td>{{ obj.cpu }}</td>
+                <td>{{ obj.manufacturers }}</td>
+                <td>{{ obj.create_time }}</td>
+                <td>{{ obj.update_time }}</td>
+                <td>
+                    <button>
+                        <a href="/api/v1/cmdb/delete/{{ obj.id }}/">删除</a>
+                    </button>
+                    <button>修改</button>
+                </td>
+            </tr>
+            {% endfor %}
+        {% paginate %}
+        </tbody>
+
+    </table>
+
+</center>
+
+</body>
+</html>

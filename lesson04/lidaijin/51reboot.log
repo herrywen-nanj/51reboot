@@ -1,0 +1,16 @@
+[2019-06-20 11:20:06,742] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:20:38,385] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] del monkey
+[2019-06-20 11:23:17,997] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:25:33,154] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:26:10,716] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:26:21,602] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] del monkey5 succeeded
+[2019-06-20 11:27:10,058] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:27:19,132] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] del monkey5 succeeded
+[2019-06-20 11:27:59,215] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:28:05,470] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] del monkey5 succeeded
+[2019-06-20 11:30:16,895] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:36:51,756] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:38:41,157] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:39:29,388] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:41:03,268] - [MainThread] - [lesson4_v1.py-line:30] [DEBUG] Log in successfully
+[2019-06-20 11:44:38,876] - [MainThread] - [lesson4_v1.py-line:29] [DEBUG] Log in successfully

@@ -1,0 +1,18 @@
+[2019-06-19 15:37:13,008] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:34:50,326] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:38:12,345] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:38:23,543] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joedeleteaaa
+[2019-06-19 16:41:21,395] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:41:30,714] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe delete bbb
+[2019-06-19 16:45:00,094] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:45:13,455] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:45:24,278] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:46:16,278] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-19 16:46:42,875] - [MainThread] - [user_manage_v3.py-line:43] [DEBUG] joe login success!
+[2019-06-20 11:51:58,951] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-20 12:02:05,865] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-20 12:04:46,386] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] aaausername or password error!
+[2019-06-20 12:05:04,233] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] ja username or password error!
+[2019-06-20 12:08:53,604] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] ['joe', ' login success!']
+[2019-06-20 12:10:33,891] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!
+[2019-06-21 14:43:23,111] - [MainThread] - [user_manage_v3.py-line:42] [DEBUG] joe login success!

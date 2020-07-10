@@ -1,0 +1,6 @@
+[2019-06-21 10:40:24,159] - [MainThread] - [user_management.py-line:28] [DEBUG] 1用户已登录
+[2019-06-21 10:40:55,596] - [MainThread] - [user_management.py-line:28] [DEBUG] Add monkey succ.
+[2019-06-21 10:41:11,668] - [MainThread] - [user_management.py-line:28] [DEBUG] monkey已删除
+[2019-06-21 10:41:58,027] - [MainThread] - [user_management.py-line:28] [DEBUG] 用户monkey1,tel已更新为186xxx
+[2019-06-21 10:42:31,420] - [MainThread] - [user_management.py-line:28] [DEBUG] monkey6已删除
+[2019-06-21 10:43:01,029] - [MainThread] - [user_management.py-line:28] [DEBUG] 1用户退出

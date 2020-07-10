@@ -1,0 +1,7 @@
+[db]
+engine = mysql
+host = 10.99.35.215
+port = 3306
+user = ops_usr
+password = ops_usr_pwd
+database = ops

@@ -1,0 +1,27 @@
+[2019-06-18 20:58:09,201] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 20:58:14,964] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 20:58:41,748] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 20:58:53,591] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:00:53,757] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:01:06,108] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:01:54,442] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:06:35,895] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:08:15,738] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:08:51,946] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:11:35,206] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:18:18,452] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:18:52,092] - [MainThread] - [deleteUser.py-line:19] [DEBUG] user monkey remove success.
+[2019-06-18 21:20:19,366] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:26:58,358] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:28:53,141] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:34:24,483] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:38:07,528] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:38:12,031] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 21:40:24,253] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:40:25,685] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:40:26,833] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:40:28,109] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:40:30,138] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 21:40:31,839] - [MainThread] - [loginAuth.py-line:17] [DEBUG] username or password error, Please login again.
+[2019-06-18 22:01:19,112] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.
+[2019-06-18 22:02:12,518] - [MainThread] - [loginAuth.py-line:13] [DEBUG] 51reboot login success.

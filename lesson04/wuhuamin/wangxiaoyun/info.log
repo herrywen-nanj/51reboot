@@ -1,0 +1,31 @@
+[2019-06-22 15:57:26,085] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51rebot, password: 1234, Login failed.
+[2019-06-22 15:57:32,876] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 123456, Login succ.
+[2019-06-22 15:57:34,029] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] load succ.
+[2019-06-22 15:57:45,244] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 输入指令错误，请输入 help 查看帮助.
+[2019-06-22 15:57:48,037] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 用户信息 [31;1mbob[0m 已加入队列.
+[2019-06-22 15:57:52,646] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 用户信息 [31;1myfshare[0m 已加入队列.
+[2019-06-22 15:57:58,845] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] load succ.
+[2019-06-22 15:57:58,846] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 用户ID stu1 已存在,信息[1;31m录入失败[0m.
+[2019-06-22 15:57:58,847] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 用户ID stu102 信息[1;31m已保存[0m.
+[2019-06-22 15:58:00,828] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 输入指令错误，请输入 help 查看帮助.
+[2019-06-22 15:58:17,262] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] load succ.
+[2019-06-22 15:58:17,264] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 用户信息导出到 [31;1mStuInfo.csv[0m 成功
+[2019-06-22 15:58:24,630] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] load succ.
+[2019-06-22 15:58:24,630] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前一共有 19 条用户数据.
+[2019-06-22 15:58:24,631] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前第 1 页, 从 0 行开始读取, 每页显示 5 行
+[2019-06-22 15:58:24,632] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前第 1 页, 一共 4 页.
+[2019-06-22 15:58:24,632] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 请按回车翻页: 
+[2019-06-22 15:58:25,245] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前第 2 页, 一共 4 页.
+[2019-06-22 15:58:25,246] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 请按回车翻页: 
+[2019-06-22 15:58:25,733] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前第 3 页, 一共 4 页.
+[2019-06-22 15:58:25,734] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 请按回车翻页: 
+[2019-06-22 15:58:26,213] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 当前第 4 页, 一共 4 页.
+[2019-06-22 15:58:26,214] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] 到底了.
+[2019-06-22 15:58:29,932] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] exit succ.
+[2019-06-22 16:04:00,494] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 123456, Login succ.
+[2019-06-22 16:06:10,470] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 1234567, Login failed.
+[2019-06-22 16:06:14,333] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 12345676, Login failed.
+[2019-06-22 16:06:18,943] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 123456, Login succ.
+[2019-06-22 16:06:20,735] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] load succ.
+[2019-06-22 16:07:26,790] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51rebot, password: 123456, Login failed.
+[2019-06-22 16:07:30,584] - [MainThread] - [UserManageV3.py-line:66] [DEBUG] username: 51reboot, password: 123456, Login succ.

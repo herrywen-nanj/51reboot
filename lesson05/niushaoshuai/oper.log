@@ -1,0 +1,54 @@
+2019-06-29 08:33:49,006 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:35:37,977 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:37:37,853 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:41:10,254 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:43:05,926 | task-login-func.py | deleteUser | INFO |  [31mDel monkey11 fail,no such user.[0m
+2019-06-29 08:43:05,926 | task-login-func.py | deleteUser | INFO |  [31mDel monkey11 fail,no such user.[0m
+2019-06-29 08:45:05,139 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:45:19,338 | task-login-func.py | deleteUser | INFO |  [31mDel mon fail,no such user.[0m
+2019-06-29 08:45:19,338 | task-login-func.py | deleteUser | INFO |  [31mDel mon fail,no such user.[0m
+2019-06-29 08:47:46,552 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:49:04,405 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:51:18,702 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:53:35,857 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:59:46,593 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 08:59:58,787 | task-login-func.py | deleteUser | INFO |  [31mDel mo fail,no such user.[0m
+2019-06-29 08:59:58,787 | task-login-func.py | deleteUser | INFO |  [31mDel mo fail,no such user.[0m
+2019-06-29 09:01:23,496 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 09:33:32,431 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 09:33:54,006 | task-login-func.py | deleteUser | INFO |  [31mDel 1 fail,no such user.[0m
+2019-06-29 09:33:54,006 | task-login-func.py | deleteUser | INFO |  [31mDel 1 fail,no such user.[0m
+2019-06-29 09:35:24,710 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 09:35:32,820 | task-login-func.py | deleteUser | INFO |  [31mDel 1 fail,no such user.[0m
+
+2019-06-29 09:35:46,581 | task-login-func.py | deleteUser | INFO |  [31mDel 2 fail,no such user.[0m
+2019-06-29 09:37:22,629 | task-login-func.py | loginAuth | INFO | 1 Login succ
+2019-06-29 09:37:28,419 | task-login-func.py | deleteUser | ERROR |  [31mDel 1 fail,no such user.[0m
+2019-06-29 09:42:55,040 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 09:44:00,981 | task-login-class.py | loginAuth | ERROR | 1 Login fail
+2019-06-29 09:44:53,718 | task-login-class.py | loginAuth | ERROR | exit Login fail
+2019-06-29 09:44:55,314 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 11:28:04,666 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:17:27,204 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:23:16,930 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:24:36,838 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:26:21,588 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:27:46,877 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:28:22,790 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:29:19,857 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:30:54,953 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:31:31,115 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:34:57,359 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:36:20,523 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:37:13,946 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:38:49,150 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:40:56,197 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:43:32,219 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:45:17,050 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:46:26,483 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:47:09,302 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:48:48,881 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:50:44,870 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:52:04,670 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 14:56:07,915 | task-login-class.py | loginAuth | INFO | 1 Login succ
+2019-06-29 15:22:41,208 | task-login-class.py | loginAuth | INFO | 1 Login succ

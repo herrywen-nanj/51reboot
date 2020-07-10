@@ -1,0 +1,20 @@
+import configparser
+def ReadConf(section, key=None, filename='mysql.ini'):
+    try:
+        config = configparser.ConfigParser()
+        config.read(filename)
+        if not config.sections():
+            return "configure file error", False
+
+        if key:
+            if section in config.sections():
+                return dict(config['section'])['key'], True
+            else:
+                return 'section not exists', False
+        else:
+            return dict(config['section']), True
+    except Exception as e:
+        return False
+
+msg, ok = (ReadConf('mysqld'))
+print(msg)

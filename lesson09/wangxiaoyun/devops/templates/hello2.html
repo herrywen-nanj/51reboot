@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        th {
+            height: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: green">Document<h5>51reboot 训练营</h5></h1>
+    <hr>
+    <table border="1" cellspacing="0" bordercolor="#000000" cellpadding="4" style='BORDER-COLLAPSE: collapse'>
+        <tr align='center' style='color:Black' bgColor='#FFA833'>
+            <th>Title</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>{{ titles }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <table border="1" cellspacing="0" bordercolor="#000000" cellpadding="4" style='BORDER-COLLAPSE: collapse'>
+        <tr align='center' style='color:Black' bgColor='#FFA833'>
+            <th>Bookname</th>
+        </tr>
+        <tbody>
+            {% for item in books %}
+            <tr>
+                <td>{{ item }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <table border="1" cellspacing="0" bordercolor="#000000" cellpadding="4" style='BORDER-COLLAPSE: collapse'>
+        <tr align='center' style='color:Black' bgColor='#FFA833'>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>{{ peo.name }}</td>
+                <td>{{ peo.age }}</td>
+                <td>{{ peo.sex }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <table border="1" cellspacing="0" bordercolor="#000000" cellpadding="4" style='BORDER-COLLAPSE: collapse'>
+        <tr align='center' style='color:Black' bgColor='#FFA833'>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+        {% for item in products %}
+        <tbody>
+            <tr>
+            <th>{{ item.pid }}</th>
+            <th>{{ item.name }}</th>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+</center>
+</body>
+</html>

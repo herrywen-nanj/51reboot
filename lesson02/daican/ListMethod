@@ -1,0 +1,148 @@
+列表的方法
+```
+>>> dir(list)    
+.append
+.count
+.extend
+.index
+.insert
+.pop
+.remove
+.reverse
+.sort
+```
+####list.append()
+**append() 方法用于在列表末尾添加新的对象。**
+**L.append(object) -> None**
+```
+In [1]: l1 = ['test', 'change']                                              
+
+In [2]: l1.append('can')                                                     
+
+In [3]: print(l1)                                                            
+['test', 'change', 'can']
+```
+####list.count()
+**count() 方法用于统计某个元素在列表中出现的次数。**
+**L.count(value) -> integer**
+```
+In [4]: l2 = [123, 'test', 123]                                              
+
+In [4]: l2.count(123)                                                        
+Out[4]: 2
+
+In [5]: l2.count('test')                                                     
+Out[5]: 1
+```
+####list.extend()
+**extend() 函数用于在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）。**
+**L.extend(iterable) -> None**
+* iterable 元素列表，可以是列表、元组、集合、字典，若为字典,则仅会将键(key)作为元素依次添加至原列表的末尾。
+```
+In [6]: l1 = ['test']                                                         
+
+In [7]: l1.extend(['list'])                                                   
+
+In [8]: print('添加列表后:',l1)                                               
+添加列表后: ['test', 'list']
+
+In [9]: l1.extend({'set'})                                                    
+
+In [10]: print('添加集合后:',l1)                                               
+添加集合后: ['test', 'list', 'set']
+
+In [11]: l1.extend(('tuple1','tuple2'))                                        
+
+In [12]: print('添加元组后:',l1)                                               
+添加元组后: ['test', 'list', 'set', 'tuple1', 'tuple2']
+```
+####list.index()
+**index() 函数在列表list中找出某个值value 第一个匹配项的索引位置。如果列表中有这个值，这返回索引位置；如果没有则抛出异常。**
+**L.index(value, [start, [stop]]) -> integer**
+```
+In [13]: l1 = ['test', 'change', 'can']                                        
+
+In [14]: print('change的索引值为', l1.index('change'))                         
+change的索引值为 1
+
+In [15]: print('can的索引值为', l1.index('can'))                               
+can的索引值为 2
+```
+####list.insert()
+**insert() 函数用于将指定对象插入列表的指定位置。**
+**L.insert(index, object) -- insert object before index**
+* index -- 对象 obj 需要插入的索引位置。
+* object -- 要插入列表中的对象。
+```
+In [16]: l1 = ['test', 'change']                                               
+
+In [17]: l1.insert(1, 123)                                                     
+
+In [18]: l1                                                                    
+Out[18]: ['test', 123, 'change']
+```
+####list.pop()
+**pop() 函数用于移除列表中的一个元素（默认最后一个元素），并且返回该元素的值。**
+**L.pop([index]) -> item -- remove and return item at index (default last).**
+```
+In [19]: l1 = ['test', 'change', 'can']                                        
+
+In [20]: l1_pop = l1.pop(1)                                                    
+
+In [21]: print("删除的项为:", l1_pop)                                          
+删除的项为: change
+
+In [22]: print("列表现在为:", l1)                                              
+列表现在为: ['test', 'can']
+```
+####list.remove()
+**remove() 函数用于移除列表中某个值的第一个匹配项。该方法没有返回值但是会移除列表中的某个值的第一个匹配项。**
+**L.remove(value) -> None -- remove first occurrence of value.**
+```
+In [23]: l1 = ['test', 'change', 'can']                                        
+
+In [24]: l1.remove('change')                                                   
+
+In [25]: l1                                                                    
+Out[25]: ['test', 'can']
+```
+####list.reverse()
+**reverse() 函数用于反向列表中元素。**
+**L.reverse() -- reverse *IN PLACE***
+```
+In [26]: l1 = ['test', 'change', 'can']                                        
+
+In [27]: l1.reverse()                                                          
+
+In [28]: print("反向排序后的列表：", l1)                                       
+反向排序后的列表： ['can', 'change', 'test']
+```
+####list.sort()
+**sort() 方法对列表进行排序。**
+**L.sort(key=None, reverse=False) -> None -- stable sort *IN PLACE***
+* key:是排序的条件,可以是：key=int，key=len， key=lambda..
+* reverse:表示是否反序，默认从小到大，默认为Flase
+```
+In [29]: l1 = ['a', 'd', 'b']                                                  
+In [30]: l1.sort()    #顺序排序                                                         
+In [31]: print("排序后：", l1)                                                 
+排序后： ['a', 'b', 'd']
+
+In [32]: l1.sort(reverse=True)  #反序                                                
+In [33]: print("排序后：", l1)                                                 
+排序后： ['d', 'b', 'a']
+
+In [34]: l2 = ['D', 'e', 'a', 'R' ]                                            
+In [35]: l2.sort()         # 一般字典序排列，但是大写在前，小写在后！！                                                    
+In [36]: print("一般字典序排列:", l2)                                          
+一般字典序排列: ['D', 'R', 'a', 'e']
+
+In [37]: l2.sort(key=str.lower)                                                
+In [38]: print("忽略大小写，按abcd顺序", l2)                                   
+忽略大小写，按abcd顺序 ['a', 'D', 'e', 'R']
+
+In [39]: l3 = ['D10', 'e234', 'a5', 'R6789' ]                                  
+In [40]: l3.sort(key=len)                                                      
+In [41]: print("按照字符串长度排序：", l3)                                     
+按照字符串长度排序： ['a5', 'D10', 'e234', 'R6789']
+```

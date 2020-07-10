@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style type="text/css">
+        body {
+            background: aqua;
+        }
+
+        .list{
+            background: green;
+        }
+        table{
+            width: 40%;
+            border: 1px solid #333;
+            background: green;
+            border-collapse: collapse;
+        }
+
+        table td,table th{
+            border: 1px solid #333;
+            text-align: left;
+        }
+        table>tbody>tr:hover{
+            background: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<div class="list">
+    <ul>
+    {% for book in books %}
+    <li>{{ book }}</li>
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    hello my name is {{ people.name }}
+    my age is {{ people.age }} and I am {{ people.sex }}
+</div>
+
+<div>
+    {% if people %}
+        <li>name:{{ people.name }}</li>
+    {% else %}
+        用户不存在
+    {% endif %}
+
+    {% for k,v in people.items %}
+    <li>{{ k }} --> {{ v }}</li>
+    {% endfor %}
+</div>
+
+
+<div class="table">
+    <table>
+        <thead>
+        <tr>
+
+            <th>pid</th>
+            <th>name</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            {% for product in products %}
+                <tr>
+                <td>{{ product.pid }}</td>
+                <td>{{ product.name }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+</body>
+</html>

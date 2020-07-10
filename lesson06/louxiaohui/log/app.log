@@ -1,0 +1,20 @@
+06/Jul/2019 01:38:27 v5_class.py[line:149] DEBUG login succeed
+06/Jul/2019 01:39:05 v5_class.py[line:149] DEBUG login succeed
+06/Jul/2019 01:40:12 v5_class.py[line:112] INFO Insert succ.
+06/Jul/2019 01:40:12 v5_class.py[line:113] DEBUG insert into users(username, age, tel, email) values('test002', 19, '18233335681', '6668@qq.com');
+06/Jul/2019 01:42:20 v5_class.py[line:149] DEBUG login succeed
+06/Jul/2019 01:42:35 v5_class.py[line:112] INFO Insert succ.
+06/Jul/2019 01:42:35 v5_class.py[line:113] DEBUG insert into users(username, age, tel, email) values('test001', 18, '18233335680', '6667@qq.com');
+06/Jul/2019 08:32:42 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 08:32:48 v5_class.py[line:156] DEBUG login failed
+06/Jul/2019 08:32:51 v5_class.py[line:156] DEBUG login failed
+06/Jul/2019 08:32:53 v5_class.py[line:156] DEBUG login failed
+06/Jul/2019 08:32:56 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 08:51:48 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 08:56:26 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 08:57:40 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 09:02:27 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 09:05:43 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 09:06:11 v5_class.py[line:153] DEBUG login succeed
+06/Jul/2019 09:07:16 v5_class.py[line:189] DEBUG user 'test001' has been deleted
+06/Jul/2019 09:08:40 v5_class.py[line:153] DEBUG login succeed

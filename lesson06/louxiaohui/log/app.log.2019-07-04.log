@@ -1,0 +1,5 @@
+27/Jun/2019 00:00:35 v4_pymysql_ConfigParser.py[line:143] DEBUG login succeed
+27/Jun/2019 00:04:20 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+27/Jun/2019 00:42:48 v4_pymysql_ConfigParser.py[line:144] DEBUG login succeed
+27/Jun/2019 00:43:18 v4_pymysql_ConfigParser.py[line:109] INFO Insert succ.
+27/Jun/2019 00:43:18 v4_pymysql_ConfigParser.py[line:110] DEBUG insert into users(username, age, tel, email) values('test006', 23, '18233335685', '6672@qq.com');

@@ -1,0 +1,46 @@
+[2019-06-25 17:50:32,336] - [MainThread] - [my_log.py-line:14] [DEBUG] [
+  {
+    "id": 1,
+    "name": "chenfan",
+    "password": "1234"
+  }
+]
+[2019-06-25 17:50:36,532] - [MainThread] - [my_log.py-line:14] [DEBUG] User chenfan Login Succ
+[2019-06-25 17:51:03,976] - [MainThread] - [my_log.py-line:14] [DEBUG] ((36, 'monkey', 12, '132xxx', 'monkey@51reboot.com'), (37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 12, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:51:10,278] - [MainThread] - [my_log.py-line:14] [DEBUG] ((39, 'monkey66', 12, '132xxx', 'monkey@51reboot.com'),)
+[2019-06-25 17:51:28,971] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:52:37,725] - [MainThread] - [my_log.py-line:14] [DEBUG] [
+  {
+    "id": 1,
+    "name": "chenfan",
+    "password": "1234"
+  }
+]
+[2019-06-25 17:52:41,692] - [MainThread] - [my_log.py-line:14] [DEBUG] User chenfan Login Succ
+[2019-06-25 17:52:43,416] - [MainThread] - [my_log.py-line:14] [DEBUG] ((36, 'monkey', 12, '132xxx', 'monkey@51reboot.com'), (37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 0, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:52:58,255] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:53:12,131] - [MainThread] - [my_log.py-line:14] [DEBUG] ((36, 'monkey', 12, '132xxx', 'monkey@51reboot.com'), (37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:53:18,573] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:53:22,109] - [MainThread] - [my_log.py-line:14] [DEBUG] ((36, 'monkey', 17, '132xxx', 'monkey@51reboot.com'), (37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:53:29,835] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:53:37,276] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:53:42,937] - [MainThread] - [my_log.py-line:14] [DEBUG] update succ
+[2019-06-25 17:53:54,017] - [MainThread] - [my_log.py-line:14] [DEBUG] ((36, 'monkey', 19, '132xxx', 'monkey@51reboot.com'), (37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:54:41,868] - [MainThread] - [my_log.py-line:14] [DEBUG] ((37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:54:53,656] - [MainThread] - [my_log.py-line:14] [DEBUG] ((37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))
+[2019-06-25 17:55:42,057] - [MainThread] - [my_log.py-line:14] [DEBUG] [
+  {
+    "id": 1,
+    "name": "chenfan",
+    "password": "1234"
+  }
+]
+[2019-06-25 17:55:44,690] - [MainThread] - [my_log.py-line:14] [DEBUG] [
+  {
+    "id": 1,
+    "name": "chenfan",
+    "password": "1234"
+  }
+]
+[2019-06-25 17:55:48,593] - [MainThread] - [my_log.py-line:14] [DEBUG] User chenfan Login Succ
+[2019-06-25 17:55:54,171] - [MainThread] - [my_log.py-line:14] [DEBUG] ((37, 'monkey1', 12, '132xxx', 'monkey@51reboot.com'), (38, 'monkey2', 12, '132xxx', 'monkey@51reboot.com'), (39, 'monkey66', 18, '132xxx', 'monkey@51reboot.com'))

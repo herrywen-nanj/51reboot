@@ -1,0 +1,155 @@
+#### 字符串处理
+
+删除
+
+```
+    lstrip
+      从左边清除字符
+    rstrip
+      从右边清除字符串
+    strip
+      清理两边的字符串
+```
+
+合并
+
+```
+    s = ''.join([s1,s2])
+      合并两个字符串
+      必须是字符串
+```
+
+  大小写转换
+
+```
+    s.lower
+    s.upper
+```
+
+  替换
+
+```
+    s.replace('123', '321')
+```
+
+  输出格式化
+
+```
+    print(%s) %(name)
+    print({0}.formate )
+    print{0:4}.format
+      占位
+    {0:^4}.format
+      两边填充
+    {0>4}.format
+      左侧填充
+```
+
+  判断
+
+```
+    s.endswith('123')
+      判断结尾是否为123
+    s.startswith('321')
+      判断开头是否为123
+    s.isdigit()
+      判断是否是数字
+    s.isupper()
+      判断是字母是否大写
+```
+
+  统计
+
+```
+    print(sr.count('4'))
+```
+
+  分割成列表
+
+```
+    print(sr.split('4'))
+```
+
+  查找
+
+```
+    s.find('321')
+```
+
+  格式化
+
+```
+    s.rjust()
+      右对齐
+```
+
+
+
+ 方法（重要)
+  出现次数
+
+```
+     l.count('python')
+     Linux中的会行问题\n
+```
+
+  插入
+
+```
+    l.insert(1,'C++')
+```
+
+  追加
+
+```
+    l.append('SQL')
+    l.extend()
+      追加可迭代序列追加到列表末尾
+```
+
+  获取索引位置
+
+```
+    l.index('python')
+    多个时至获取第一个匹配
+    不存在会异常
+```
+
+  删除
+
+```
+    l.remove('python')
+    l[2:10000000]=[]
+    l.pop(index)
+    删除第一个匹配的
+```
+
+  顺序调整
+
+```
+    l.sort()
+      升序
+    l.reverse()
+      顺序反转
+```
+
+  内置函数
+
+```
+    int
+    float
+    bool
+    len
+    str
+    input
+    len
+    max
+    min
+    del
+```
+
+  修改
+
+```
+    a[index] = 10
+```

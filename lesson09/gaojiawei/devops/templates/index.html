@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background: blanchedalmond">
+    {% for i in books %}
+        <li>{{ i }}</li>
+    {% endfor %}
+    my age is {{ pople.age}} i am {{ pople.name }}
+
+    {% if pople %}
+        <li>name:{{ pople.name }}</li>
+    {% else %}
+        用户不存在
+    {% endif %}
+
+    {% for k,v in pople.items %}
+        <li>{{ k }} --> {{ v }}</li>
+    {% endfor %}
+
+    #products = [{'pid': 1, 'name': 'iphone'}, {'pid': 2, 'name': 'computer'}, {'pid': 3, 'name': 'TV'}]
+    <br>
+    {% for i in products %}
+        {{ i.pid }} , {{ i.name }} <br>
+    {% endfor %}
+<table border="1">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>商品名</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for i in products %}
+    <tr>
+        <td>{{ i.pid }}</td> <td> {{i.name}}</td>
+
+    </tr>
+        </tbody>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>

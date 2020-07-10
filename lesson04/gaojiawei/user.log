@@ -1,0 +1,17 @@
+[2019-06-18 12:21:42,812] - [MainThread] - [user.py-line:50] [DEBUG] Log in successfully
+[2019-06-18 12:22:00,364] - [MainThread] - [user.py-line:50] [DEBUG] del monkey
+[2019-06-18 12:22:03,311] - [MainThread] - [user.py-line:50] [DEBUG] User monkey not found.
+[2019-06-18 12:23:18,264] - [MainThread] - [user.py-line:50] [DEBUG] musername or password error.
+[2019-06-18 12:23:24,814] - [MainThread] - [user.py-line:50] [DEBUG] musername or password error.
+[2019-06-18 12:23:28,935] - [MainThread] - [user.py-line:50] [DEBUG] musername or password error.
+[2019-06-18 12:23:32,928] - [MainThread] - [user.py-line:50] [DEBUG] Log in successfully
+[2019-06-18 13:55:59,312] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 13:56:43,594] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 13:58:01,922] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:07:21,540] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:08:40,661] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:10:22,569] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:15:50,420] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:18:38,136] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully
+[2019-06-18 14:19:11,718] - [MainThread] - [user.py-line:53] [DEBUG] del monkey
+[2019-06-18 14:47:29,005] - [MainThread] - [user.py-line:53] [DEBUG] Log in successfully

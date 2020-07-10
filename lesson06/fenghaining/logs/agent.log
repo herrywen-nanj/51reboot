@@ -1,0 +1,171 @@
+[2019-06-21 10:40:24,159] - [MainThread] - [user_management.py-line:28] [DEBUG] 1用户已登录
+[2019-06-21 10:40:55,596] - [MainThread] - [user_management.py-line:28] [DEBUG] Add monkey succ.
+[2019-06-21 10:41:11,668] - [MainThread] - [user_management.py-line:28] [DEBUG] monkey已删除
+[2019-06-21 10:41:58,027] - [MainThread] - [user_management.py-line:28] [DEBUG] 用户monkey1,tel已更新为186xxx
+[2019-06-21 10:42:31,420] - [MainThread] - [user_management.py-line:28] [DEBUG] monkey6已删除
+[2019-06-21 10:43:01,029] - [MainThread] - [user_management.py-line:28] [DEBUG] 1用户退出
+[2019-06-24 06:28:46,129] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 06:38:09,808] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 06:38:14,325] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户退出
+[2019-06-24 06:38:17,879] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 06:39:00,992] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 06:39:35,798] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 06:39:59,755] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey succ.
+[2019-06-24 07:15:56,103] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:22:01,077] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:23:01,726] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:23:15,251] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:26:04,360] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:27:04,711] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:31:37,758] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:33:12,251] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:33:44,462] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 07:37:24,692] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 08:16:12,306] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 08:17:34,666] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey1 succ.
+[2019-06-24 08:17:42,361] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey2 succ.
+[2019-06-24 08:18:00,452] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey3 succ.
+[2019-06-24 08:18:05,872] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey4 succ.
+[2019-06-24 08:18:11,801] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey5 succ.
+[2019-06-24 08:18:15,684] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey6 succ.
+[2019-06-24 08:18:20,043] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey7 succ.
+[2019-06-24 08:18:24,561] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey8 succ.
+[2019-06-24 08:56:05,178] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:00:37,177] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:01:02,199] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey succ.
+[2019-06-24 09:02:21,208] - [MainThread] - [user_management.py-line:29] [DEBUG] monkey已删除
+[2019-06-24 09:20:45,195] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:23:58,767] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:24:10,029] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey succ.
+[2019-06-24 09:25:22,070] - [MainThread] - [user_management.py-line:29] [DEBUG] monkey已删除
+[2019-06-24 09:25:30,206] - [MainThread] - [user_management.py-line:29] [DEBUG] monkey1已删除
+[2019-06-24 09:27:52,975] - [MainThread] - [user_management.py-line:29] [DEBUG] 用户monkey2,tel已更新为186xxx
+[2019-06-24 09:28:53,270] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户退出
+[2019-06-24 09:29:00,560] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:30:26,909] - [MainThread] - [user_management.py-line:29] [DEBUG] 用户monkey2,tel已更新为186xxx
+[2019-06-24 09:30:44,998] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:38:38,903] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-24 09:38:58,996] - [MainThread] - [user_management.py-line:29] [DEBUG] Add monkey succ.
+[2019-06-24 09:39:09,294] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户退出
+[2019-06-24 09:39:11,710] - [MainThread] - [user_management.py-line:29] [DEBUG] 1用户已登录
+[2019-06-26 03:53:43,195] - [MainThread] - [user_management.py-line:51] [DEBUG] 1用户已登录
+[2019-06-26 03:54:19,571] - [MainThread] - [user_management.py-line:51] [DEBUG] 1用户已登录
+[2019-06-26 03:55:25,724] - [MainThread] - [user_management.py-line:51] [DEBUG] 1用户已登录
+[2019-06-26 06:35:56,705] - [MainThread] - [user_management.py-line:54] [DEBUG] 1用户已登录
+[2019-06-26 06:38:30,187] - [MainThread] - [user_management.py-line:54] [DEBUG] 1用户已登录
+[2019-06-26 06:40:27,915] - [MainThread] - [user_management.py-line:54] [DEBUG] 1用户已登录
+[2019-06-26 06:41:07,059] - [MainThread] - [user_management.py-line:54] [DEBUG] 1用户已登录
+[2019-06-26 06:45:29,691] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 06:46:14,787] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 06:48:07,205] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 06:49:08,434] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey succ.
+[2019-06-26 06:53:35,560] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 06:55:05,590] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 06:55:08,438] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 06:55:21,574] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey succ.
+[2019-06-26 09:10:55,884] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:11:40,395] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 09:11:42,589] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:12:54,572] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey,age已更新为18
+[2019-06-26 09:13:39,381] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:14:44,261] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey,tel已更新为'188xx'
+[2019-06-26 09:15:40,525] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:16:13,239] - [MainThread] - [user_management.py-line:55] [DEBUG] monke4已删除
+[2019-06-26 09:18:15,893] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 09:18:19,846] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:19:01,382] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey4 succ.
+[2019-06-26 09:20:07,603] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:21:47,727] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 09:21:50,983] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:23:21,975] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey9 succ.
+[2019-06-26 09:23:49,007] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 09:23:51,690] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:24:11,673] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey9 succ.
+[2019-06-26 09:24:27,855] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey10 succ.
+[2019-06-26 09:24:34,458] - [MainThread] - [user_management.py-line:55] [DEBUG] Add monkey11 succ.
+[2019-06-26 09:26:09,040] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey9,age已更新为19
+[2019-06-26 09:26:18,335] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey10,age已更新为20
+[2019-06-26 09:26:22,728] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey11,age已更新为21
+[2019-06-26 09:27:45,287] - [MainThread] - [user_management.py-line:55] [DEBUG] 用户monkey11,tel已更新为188xxx
+[2019-06-26 09:28:34,247] - [MainThread] - [user_management.py-line:55] [DEBUG] monkey4已删除
+[2019-06-26 09:29:37,384] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户退出
+[2019-06-26 09:29:40,217] - [MainThread] - [user_management.py-line:55] [DEBUG] 1用户已登录
+[2019-06-26 09:32:23,499] - [MainThread] - [user_management.py-line:55] [DEBUG] 51reboot用户已登录
+[2019-06-26 09:32:33,554] - [MainThread] - [user_management.py-line:55] [DEBUG] 51reboot用户退出
+[2019-07-02 07:39:37,649] - [MainThread] - [user_management.py-line:322] [DEBUG] 1用户已登录
+[2019-07-02 07:41:45,520] - [MainThread] - [user_management.py-line:322] [DEBUG] Add monkey12 succ.
+[2019-07-02 07:42:01,800] - [MainThread] - [user_management.py-line:322] [DEBUG] 用户monkey12,age已更新为211
+[2019-07-02 07:42:35,159] - [MainThread] - [user_management.py-line:322] [DEBUG] Add monkey13 succ.
+[2019-07-02 07:42:43,607] - [MainThread] - [user_management.py-line:322] [DEBUG] monkey12已删除
+[2019-07-02 07:43:05,912] - [MainThread] - [user_management.py-line:322] [DEBUG] 用户monkey13,age已更新为21
+[2019-07-02 07:43:36,543] - [MainThread] - [user_management.py-line:322] [DEBUG] 1用户退出
+[2019-07-02 07:43:41,282] - [MainThread] - [user_management.py-line:322] [DEBUG] 1用户已登录
+[2019-07-02 07:54:51,519] - [MainThread] - [user_management.py-line:322] [DEBUG] 1用户退出
+[2019-07-02 11:07:21,794] - [MainThread] - [user_management.py-line:322] [DEBUG] 1用户已登录
+[2019-07-02 11:23:59,980] - [MainThread] - [user_management.py-line:323] [DEBUG] 1用户已登录
+[2019-07-02 11:25:25,017] - [MainThread] - [user_management.py-line:323] [DEBUG] 1用户已登录
+[2019-07-02 11:28:52,504] - [MainThread] - [user_management.py-line:323] [DEBUG] 1用户已登录
+[2019-07-03 07:44:08,948] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 07:47:59,748] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 07:51:17,228] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 07:53:39,057] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 07:54:35,145] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:02:11,680] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:34:35,137] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:35:28,887] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:35:34,806] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 08:35:47,216] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:35:54,078] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 08:38:37,960] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:38:54,853] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 08:39:17,398] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey14,age已更新为22
+[2019-07-03 08:40:02,457] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:40:18,406] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 08:40:26,389] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey14,age已更新为22
+[2019-07-03 08:41:04,880] - [MainThread] - [logger.py-line:9] [DEBUG] monkey14已删除
+[2019-07-03 08:41:14,605] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 08:41:19,918] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey14,age已更新为22
+[2019-07-03 08:42:56,257] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:43:31,959] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 08:55:10,128] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:58:37,352] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 08:59:09,344] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:00:53,277] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:01:45,519] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey15 succ.
+[2019-07-03 09:01:59,132] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey15,age已更新为25
+[2019-07-03 09:02:19,845] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey15,tel已更新为186xxx
+[2019-07-03 09:02:49,838] - [MainThread] - [logger.py-line:9] [DEBUG] monkey1已删除
+[2019-07-03 09:06:43,472] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:13:21,046] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:14:28,904] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:15:17,568] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:18:21,973] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey4 succ.
+[2019-07-03 09:18:27,620] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey9 succ.
+[2019-07-03 09:18:32,013] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey10 succ.
+[2019-07-03 09:19:02,341] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:19:13,599] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey4 succ.
+[2019-07-03 09:19:28,275] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:19:30,654] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:19:56,269] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey9 succ.
+[2019-07-03 09:20:01,317] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey10 succ.
+[2019-07-03 09:20:05,957] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey14 succ.
+[2019-07-03 09:20:12,061] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey15 succ.
+[2019-07-03 09:20:39,277] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:20:42,337] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:22:55,740] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey15,tel已更新为166xxx
+[2019-07-03 09:23:47,448] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:24:20,404] - [MainThread] - [logger.py-line:9] [DEBUG] monkey15已删除
+[2019-07-03 09:24:28,646] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:24:31,855] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:24:52,190] - [MainThread] - [logger.py-line:9] [DEBUG] Add monkey15 succ.
+[2019-07-03 09:25:00,852] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:25:03,512] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:25:13,428] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey15,age已更新为25
+[2019-07-03 09:25:22,380] - [MainThread] - [logger.py-line:9] [DEBUG] 用户monkey15,tel已更新为166xxx
+[2019-07-03 09:25:36,404] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:25:40,023] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:25:54,324] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
+[2019-07-03 09:32:12,416] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:34:58,274] - [MainThread] - [logger.py-line:9] [DEBUG] 1用户已登录
+[2019-07-03 09:40:00,928] - [MainThread] - [logger.py-line:9] [DEBUG] 51reboot用户已登录
+[2019-07-03 09:40:13,156] - [MainThread] - [logger.py-line:9] [DEBUG] 用户退出
